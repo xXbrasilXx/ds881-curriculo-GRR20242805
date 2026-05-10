@@ -27,7 +27,7 @@ jobs:
           node-version: "24"
 
       - name: Instalar dependências
-        run: npm ci
+        run: npm install
 
       - name: Linter (Análise Estática)
         run: npm run lint
