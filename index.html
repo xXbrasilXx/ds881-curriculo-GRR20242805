@@ -3,67 +3,103 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sobre Gabriel</title>
+    <title>Gabriel Brasil | Desenvolvedor de Software</title>
     <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <header>Gabriel Brasil</header>
-
-    <nav>
-      <ul>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-
-    <div class="content" id="sobre">
-      <h1>Uma jornada no mundo da tecnologia</h1>
-      <p>
-        Olá, meu nome é Gabriel e sou estudante do segundo período do curso de
-        Tecnologia em Análise e Desenvolvimento de Sistemas (TADS) na
-        Universidade Federal do Paraná (UFPR). Estou atualmente estagiando na
-        Copel, uma das maiores empresas de energia do Brasil. Tenho um grande
-        interesse por tecnologia, sempre buscando aprender mais e me desenvolver
-        nessa área.
-      </p>
-      <p>
-        Além de meus estudos e estágio, também gosto de explorar novas
-        tecnologias e me manter atualizado. Estou animado para crescer
-        profissionalmente e contribuir com meu conhecimento para a evolução da
-        área de TI.
-      </p>
-    </div>
-
-    <div class="links" id="links">
-      <h2>
-        Confira mais sobre meu perfil profissional e a empresa onde trabalho:
-      </h2>
-      <p>Explore os links abaixo para saber mais.</p>
-      <ul>
-        <li>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Gabriel Brasil</h1>
+        <h2>
+          Desenvolvedor de Software | Análise e Desenvolvimento de Sistemas
+        </h2>
+        <div class="social-links">
           <a
             href="https://www.linkedin.com/in/gabriel-brasil-ba5b6b235/"
             target="_blank"
-            >Meu LinkedIn</a
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
           >
-        </li>
-        <li><a href="https://www.copel.com/site/" target="_blank">Copel</a></li>
-      </ul>
-    </div>
+          <a href="mailto:gabriel.paulabrasil@gmail.com"
+            ><i class="fas fa-envelope"></i> E-mail</a
+          >
+          <a href="https://www.copel.com/site/" target="_blank"
+            ><i class="fas fa-bolt"></i> Copel</a
+          >
+        </div>
+      </div>
+    </header>
 
-    <!-- Seção de contato -->
-    <div class="contact" id="contato">
-      <h2>Entre em contato</h2>
-      <p>Telefone: 41 99225-165</p>
-      <p>
-        E-mail:
-        <a href="mailto:gabriel.paulabrasil@gmail.com"
-          >gabriel.paulabrasil@gmail.com</a
-        >
-      </p>
-    </div>
+    <main class="container">
+      <section class="card" id="sobre">
+        <h3><i class="fas fa-user-circle"></i> Sobre Mim</h3>
+        <p>
+          Olá! Atualmente, curso o 5º período de Tecnologia em Análise e
+          Desenvolvimento de Sistemas (TADS) na Universidade Federal do Paraná
+          (UFPR), onde desenvolvo habilidades sólidas em programação, análise de
+          sistemas e resolução de problemas tecnológicos.
+        </p>
+        <p>
+          Na minha trajetória profissional, com destaque para a atuação na
+          Copel, venho ganhando experiência prática no desenvolvimento e
+          manutenção de sistemas corporativos <strong>Java Web</strong>, com
+          forte atuação no back-end. Auxilio na criação de funcionalidades que
+          contribuem diretamente para a eficiência operacional e inovação da
+          empresa.
+        </p>
+        <p>
+          Estou sempre em busca de novos desafios. Sou apaixonado por
+          arquiteturas robustas e busco expandir meu conhecimento continuamente,
+          contribuindo de forma significativa para projetos de impacto.
+        </p>
+      </section>
 
-    <footer>© Gabriel 2024 todos os direitos reservados</footer>
+      <section class="card" id="habilidades">
+        <h3><i class="fas fa-code"></i> Habilidades Técnicas</h3>
+        <div class="skills-grid">
+          <span class="skill-tag">Java</span>
+          <span class="skill-tag">Spring Boot 3</span>
+          <span class="skill-tag">Angular 19</span>
+          <span class="skill-tag">JBoss</span>
+          <span class="skill-tag">C</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">HTML5 & CSS3</span>
+        </div>
+      </section>
+
+      <section class="card" id="experiencia">
+        <h3><i class="fas fa-briefcase"></i> Trajetória</h3>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <h4>Desenvolvimento de Sistemas Corporativos</h4>
+            <h5>Copel <span>• Experiência Prática</span></h5>
+            <p>
+              Foco em ecossistema Java Web. Atuação focada em manutenção de
+              sistemas legados e desenvolvimento de novas features para
+              otimização de processos internos.
+            </p>
+          </div>
+
+          <div class="timeline-item">
+            <h4>Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)</h4>
+            <h5>
+              Universidade Federal do Paraná (UFPR) <span>• 5º Período</span>
+            </h5>
+            <p>
+              Formação focada em engenharia de software, modelagem de dados,
+              algoritmos avançados e desenvolvimento Full-stack.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Gabriel Brasil. Todos os direitos reservados.</p>
+    </footer>
   </body>
 </html>
