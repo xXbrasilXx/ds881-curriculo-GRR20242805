@@ -1,0 +1,14 @@
+{
+  "name": "ds881-curriculo",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "build": "vite build",
+    "lint": "prettier --check .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "vite": "^5.0.0"
+  }
+}
