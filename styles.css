@@ -1,16 +1,15 @@
 /* Importando as fontes do Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Lalezar&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&family=Lalezar&display=swap");
 
 html {
-    scroll-behavior: smooth;
-  }
-  
+  scroll-behavior: smooth;
+}
 
 /* Estilos globais */
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   background-color: #f4f4f4;
   color: #333;
 }
@@ -20,7 +19,7 @@ header {
   color: white;
   text-align: center;
   padding: 1.5rem 0;
-  font-family: 'Lalezar', sans-serif;
+  font-family: "Lalezar", sans-serif;
   font-size: 2.5rem;
 }
 
@@ -44,7 +43,7 @@ nav ul li {
 nav ul li a {
   color: white;
   text-decoration: none;
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   font-size: 1.1rem;
 }
 
@@ -62,7 +61,7 @@ nav ul li a:hover {
 }
 
 h1 {
-  font-family: 'Lalezar', sans-serif;
+  font-family: "Lalezar", sans-serif;
   font-size: 2rem;
   color: #191970;
   text-align: center;
@@ -70,7 +69,7 @@ h1 {
 }
 
 p {
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   line-height: 1.6;
   text-align: justify;
   margin-bottom: 1rem;
@@ -87,13 +86,13 @@ p {
 }
 
 .links h2 {
-  font-family: 'Lalezar', sans-serif;
+  font-family: "Lalezar", sans-serif;
   font-size: 1.8rem;
   color: #191970;
 }
 
 .links p {
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -108,7 +107,7 @@ p {
 }
 
 .links ul li a {
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   font-size: 1.2rem;
   color: #191970;
   text-decoration: none;
@@ -117,7 +116,6 @@ p {
 .links ul li a:hover {
   text-decoration: underline;
 }
-
 
 /* Estilos para a seção de contato */
 .contact {
@@ -131,13 +129,13 @@ p {
 }
 
 .contact h2 {
-  font-family: 'Lalezar', sans-serif;
+  font-family: "Lalezar", sans-serif;
   font-size: 1.8rem;
   color: #191970;
 }
 
 .contact p {
-  font-family: 'Kadwa', sans-serif;
+  font-family: "Kadwa", sans-serif;
   font-size: 1.2rem;
   margin: 0.5rem 0;
 }
@@ -154,6 +152,6 @@ p {
 footer {
   text-align: center;
   margin: 2rem 0;
-  font-family: 'Lalezar', sans-serif;
+  font-family: "Lalezar", sans-serif;
   color: #191970;
 }
